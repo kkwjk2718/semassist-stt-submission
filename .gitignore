@@ -1,0 +1,42 @@
+# secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+temp_audio/
+backend/temp_audio/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# data and model artifacts
+data/
+*.wav
+*.mp3
+*.webm
+*.safetensors
+*.pt
+*.pth
+checkpoints/
+results/**/*.csv
+results/**/*.jsonl
+results/**/evidence/
+results/**/model_artifacts/
+results/**/rendered_pages/
+results/**/final_report_pdf_pages/
+results/team_report_package.zip
+
+# local/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

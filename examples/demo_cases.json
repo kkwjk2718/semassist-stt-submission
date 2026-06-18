@@ -1,0 +1,39 @@
+[
+  {
+    "id": "daily_001",
+    "domain": "daily",
+    "reference": "오늘 만나는 곳이 지하철역 맞나요?",
+    "asr_text": "오널 만나는 곳 지하철역 맞나여",
+    "expected_question": "오늘 만나는 곳이 지하철역 맞나요?",
+    "expected_choices": [
+      "오늘 만나는 곳이 지하철역 맞나요?",
+      "오늘 지하철역에서 만나나요?",
+      "다시 말할게요."
+    ],
+    "expected_final": "오늘 만나는 곳이 지하철역 맞나요?"
+  },
+  {
+    "id": "daily_002",
+    "domain": "daily",
+    "reference": "내일 학교 가요.",
+    "asr_text": "내일 하교 가요",
+    "expected_question": "내일 학교에 가는 말인가요?",
+    "expected_choices": [
+      "내일 학교에 가요.",
+      "내일 학교에 가지 않아요.",
+      "다시 말할게요."
+    ]
+  },
+  {
+    "id": "emergency_001",
+    "domain": "emergency",
+    "reference": "지금 도움이 필요해요.",
+    "asr_text": "지금 도음이 필요해요",
+    "expected_question": "지금 바로 도움이 필요하신가요?",
+    "expected_choices": [
+      "네, 도와주세요.",
+      "119를 불러주세요.",
+      "다시 말할게요."
+    ]
+  }
+]

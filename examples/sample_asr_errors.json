@@ -1,0 +1,16 @@
+[
+  {
+    "id": "err_001",
+    "reference": "오늘 만나는 곳이 지하철역 맞나요?",
+    "asr_text": "오널 만나는 곳 지하철역 맞나여",
+    "error_type": "pronunciation_variation",
+    "risk_note": "The sentence is normalized only after the user confirms the intended meaning."
+  },
+  {
+    "id": "err_002",
+    "reference": "내일 학교에 가지 않아요.",
+    "asr_text": "내일 학교 가요",
+    "error_type": "negation_dropped",
+    "risk_note": "Negation may be lost, so the app should ask for confirmation instead of silently correcting it."
+  }
+]
